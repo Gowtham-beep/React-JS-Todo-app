@@ -93,7 +93,7 @@ useEffect(() => {
 
 ## Live Demo
 
-You can view the live version of the app [here]((https://react-js-todo-app-mu.vercel.app/)).
+[You can view the live version of the app here](https://react-js-todo-app-mu.vercel.app/)
 
 ## Screenshots
 
