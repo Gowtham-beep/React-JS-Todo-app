@@ -1,18 +1,24 @@
 import { TodoCard } from "./TodoCard";
 
 export function TodoList(props){
-    const {todos}=props
-    const tab='All'
-    const filterTodoList= tab==='All'?
+
+    const {todos,selectedTabs,deleteTodo,completeTodo}=props
+
+    const filterTodoList= selectedTabs==='All'?
             todos:
-            tab==='Completed'? 
+            selectedTabs==='Completed'? 
             todos.filter(val=>val.completed):
             todos.filter(val=>!val.completed)
     return(
         <>
         {filterTodoList.map((todo,todoIndex)=>{
             return(
-            <TodoCard key={todoIndex} todoIndex={todoIndex} todo={todo}/>
+            <TodoCard key={todoIndex} 
+                        todoIndex={todos.findIndex(val=>val.input==todo.input)} 
+                        todo={todo} 
+                        deleteTodo={deleteTodo}
+                        completeTodo={completeTodo}
+            />
             )
         })}
         </>

@@ -5,7 +5,7 @@ export function Header(props){
     
     return(
         <header>
-            <h1 class='text-gradient'>You have {todos.length} open {taskOrtasks}.</h1>
+            <h1 className='text-gradient'>You have {todos.length} open {taskOrtasks}.</h1>
         </header>
     )
 }

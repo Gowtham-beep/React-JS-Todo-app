@@ -40,18 +40,20 @@ h1 {
 
 .tab-selected {
   position: relative;
+  
 }
 
 .tab-selected::after {
   content: '';
   position: absolute;
-  bottom: -2px;
+  bottom: 0; /* Align with the bottom of the parent */
   left: 50%;
   transform: translateX(-50%);
   background: var(--color-link);
   border-radius: 0.5px;
   animation: widen 250ms ease-in-out forwards;
 }
+
 
 hr {
   opacity: 0.4;
