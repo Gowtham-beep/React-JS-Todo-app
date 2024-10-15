@@ -97,9 +97,9 @@ You can view the live version of the app [here](https://your-live-demo-url).
 
 ## Screenshots
 
-![Todo App All tasks](todo-all.jpg)
-![Todo App Open tasks](todo-open.jpg)
-![Todo App completed tasks](todo-completed.jpg)
+![Todo App All tasks](Todo-app/src/assets/todo-all.jpg)
+![Todo App Open tasks](Todo-app/src/assets/todo-open.jpg)
+![Todo App completed tasks](Todo-app/src/assets/todo-completed.jpg)
 
 ## License
 
