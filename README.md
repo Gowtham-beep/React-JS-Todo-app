@@ -101,10 +101,3 @@ You can view the live version of the app [here](https://your-live-demo-url).
 ![Todo App Open tasks](Todo-app/src/assets/todo-open.jpg)
 ![Todo App completed tasks](Todo-app/src/assets/todo-completed.jpg)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This `README` provides an overview of your React Todo App, its features, tech stack, and instructions on how to set it up and use it. It also explains the integration of Fanta CSS and LocalStorage in your project.
